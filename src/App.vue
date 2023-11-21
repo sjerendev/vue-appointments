@@ -1,6 +1,8 @@
 <template>
   <div id="main-app" class="container">
-    <appointment-list :appointments="appointments"></appointment-list>
+    <div class="row justify-content-center">
+      <appointment-list :appointments="appointments"></appointment-list>
+    </div>
   </div>
 </template>
 
